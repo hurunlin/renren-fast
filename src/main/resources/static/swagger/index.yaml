@@ -81,6 +81,10 @@ paths:
           description: 用户名
           in: query
           type: string
+        - name: token
+          description: token
+          in: query
+          type: string
       responses:
         '200':
           description: 返回管理员列表
